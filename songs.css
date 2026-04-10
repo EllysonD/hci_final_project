@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2b2b4f, #3a3a7a);
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+}
+
+nav a.product {
+    background-color: #ff4c8b;
+}
+nav a:hover {
+    background-color: #ff4c8b;
+}
+
+main {
+    width: 60%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.song {
+    background-color: #2b2b6b;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+}
+
+.song:hover {
+    background-color: #44447a;
+    transform: scale(1.03);
+}
+
+.button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4c8b;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #ff77a8;
+}
+
+footer {
+    background-color: #111;
+    padding: 15px;
+}
